@@ -1,5 +1,8 @@
 DEPENDENCIES
   riak-cs
+  riak-cs-prepare
+    git: git@github.com:a2ikm/chef-riak-cs-prepare.git
+    revision: 515cd5695e1cdc2594163df1965f8cc6ca7a893e
 
 GRAPH
   apt (2.3.10)
@@ -34,6 +37,8 @@ GRAPH
     ulimit (~> 0.3.2)
     yum (~> 3.0)
     yum-epel (~> 0.3)
+  riak-cs-prepare (0.1.0)
+    ulimit (>= 0.0.0)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
