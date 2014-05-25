@@ -1,1 +1,3 @@
-site :opscode
+site 'https://api.berkshelf.com'
+
+cookbook 'riak-cs'
