@@ -1,4 +1,9 @@
 {
+  "riak": {
+    "args": {
+      "-name": "riak@192.168.50.13"
+    }
+  },
   "run_list":[
     "role[riak_cs]"
   ]
