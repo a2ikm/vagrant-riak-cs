@@ -1,3 +1,3 @@
-site 'https://api.berkshelf.com'
+source 'https://api.berkshelf.com'
 
 cookbook 'riak-cs'
